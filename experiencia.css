@@ -1,0 +1,57 @@
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 2%
+}
+
+#experiencia h2 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.experiencia h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.experiencia h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.experiencia p {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.experiencia ul {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.experiencia li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
