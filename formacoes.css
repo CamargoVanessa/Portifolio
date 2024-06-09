@@ -77,3 +77,13 @@
     height: 800;
     margin-bottom: 5px;
 }
+
+@media (max-width: 1200px) {
+
+    .formacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+    }
+}

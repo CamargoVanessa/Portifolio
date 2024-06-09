@@ -200,3 +200,64 @@ main {
     height: 25px;
     margin-right: 10%;
 }
+
+@media (max-width: 1200px) {
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        margin: 1px;
+    }
+
+    .profile-title {
+        margin-right: 0%;
+        text-align: justify;
+    }
+
+    .profile-text {
+        margin-right: 0%;
+        text-align: justify;
+    }
+
+    .profile-network-item {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: center;
+        margin: 2px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+
+    .skills-title {
+        display: flex;
+        justify-content: center;
+        margin: 2px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+
+    .skills-line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hobbies-title {
+        display: flex;
+        justify-content: center;
+        margin: 2px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .hobbies-line {
+        display: flex;
+        flex-direction: column;
+    }
+}

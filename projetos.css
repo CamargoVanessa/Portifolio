@@ -117,3 +117,42 @@
     font-weight: 500;
     margin-bottom: 10%;
 }
+
+@media (max-width: 1200px) {
+    .numero-secreto{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        }
+
+    .decodificador{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .numero-secreto__titulo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 1%;
+    }
+    
+    .decodificador__titulo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 1%;
+    }
+
+    .numero-secreto__botoes{
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 10px;
+    }
+    
+    .decodificador__botoes{
+        margin-top: 0%;
+        margin-left: 20%;
+    }
+}

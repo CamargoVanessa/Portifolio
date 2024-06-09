@@ -31,5 +31,21 @@ header{
     color: var(--cor-secundaria);
 }
 
+@media (max-width: 1200px) {
+
+    header{
+        font-size: 0.7rem;
+        font-weight: 300;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho-menu-link{
+        padding: 10px;
+    }
+
+}
+
 
 
